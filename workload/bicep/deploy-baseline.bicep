@@ -373,7 +373,7 @@ param avdApplicationGroupCustomFriendlyName string = 'Desktops - App1 - Dev - Ea
 
 @maxLength(11)
 @sys.description('AVD session host prefix custom name. (Default: vmapp1duse2)')
-param avdSessionHostCustomNamePrefix string = 'vmapp1duse2'
+param avdSessionHostCustomNamePrefix string = 'arpahavdSH'
 
 @maxLength(9)
 @sys.description('AVD availability set custom name. (Default: avail)')
